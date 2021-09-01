@@ -1,0 +1,91 @@
+/* 検索 */
+.find-ttl {
+    text-align: center;
+    margin: 30px;
+    font-size: 30px;
+}
+.find-content {
+    border: 1px solid grey;
+    padding: 50px 100px;
+    margin: 0 50px;
+}
+.find-form-label {
+    font-weight: bold;
+    margin: 0 90px 0 50px;
+}
+.find-form-label-email {
+    font-weight: bold;
+    margin: 0 30px 0 50px;
+}
+.find-fullname,
+.find-gender {
+    display: inline-block;
+}
+.find-form {
+    width: 250px;
+    height: 50px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin: 20px 20px;
+    padding: 0 10px;
+}
+
+/* ラジオボタン */
+.form-item-radio-1,
+.form-item-radio-2 {
+    margin-left: 40px;
+}
+.form-item-radio-0,
+.form-item-radio-1,
+.form-item-radio-2 {
+    transform: scale(2.5);
+    margin-right: 20px;
+}
+
+.reset-button {
+    margin: 10px auto 0;
+    display: block;
+    width: 70px;
+    color: black;
+}
+/* ページネーション */
+.pagenation {
+    display: flex;
+    margin: 30px 0;
+}
+.pagenation-count {
+    margin-right: 75%;
+}
+/* 結果 */
+.result,
+.result-content {
+    width: 1300px;
+    margin: 0px auto 30px;
+}
+.result-item {
+    text-align: left;
+    border-bottom: solid 2px grey;
+    padding: 10px 0px 10px 20px;
+}
+.result-item-content {
+    padding: 10px 20px 10px 20px;
+}
+.result-item-delete {
+    margin: 10px 30px 10px 70px;
+    padding: 5px 20px;
+    color: white;
+    background-color: orange;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/* hover */
+td .open {
+    display: none;
+}
+td:hover .hidden {
+    display: none;
+}
+td:hover .open {
+    display: inline;
+}

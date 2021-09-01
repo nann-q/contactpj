@@ -1,0 +1,98 @@
+.content-ttl {
+    text-align: center;
+    margin: 30px;
+    font-size: 30px;
+}
+.form {
+    width: 75%;
+    margin: 10px auto;
+}
+th {
+    width: 300px;
+    height: 50px;
+    text-align: left;
+}
+.form-item-input {
+    height: 40px;
+    width: 500px;
+    padding: 20px;
+}
+.form-item-input-half {
+    width: 255px;
+    height: 40px;
+    padding: 20px;
+}
+.form-item-input-half:first-of-type {
+    margin-right: 10px;
+}
+
+/* ラジオボタン */
+.form-item-radio-1,
+.form-item-radio-2 {
+    transform: scale(2.5);
+    margin-right: 30px;
+}
+.form-item-radio-2 {
+    margin-left: 60px;
+}
+.form-item-example {
+    color: grey;
+}
+.form-item-example:first-of-type {
+    margin-right: 180px;
+}
+.form-item-textarea {
+    height: 200px;
+    width: 500px;
+    resize: none;
+}
+.form-item-required {
+    color: red;
+}
+.submit-button {
+    background: orange;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    display: block;
+    width: 200px;
+    padding: 10px;
+    margin: 10px auto 0;
+    cursor: pointer;
+}
+/* エラーメッセージ */
+.error {
+    margin-bottom: 20px;
+}
+.form-error,
+.form-error-fullname {
+    color: red;
+}
+.form-error-fullname {
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.form-error-fullname:first-of-type {
+    margin: 0 150px 0 300px;
+}
+#form-error-lastname,
+#form-error-firstname {
+    display: none;
+}
+.form-error-hidden {
+    display: none;
+    color: red;
+    margin-left: 300px;
+}
+/* 修正ボタン */
+.reset-button {
+    margin: 10px auto 0;
+    display: block;
+    width: 70px;
+    color: black;
+    border: none;
+    background-color: white;
+    text-decoration: underline;
+    cursor: pointer;
+}
